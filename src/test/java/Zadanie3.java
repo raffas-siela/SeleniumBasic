@@ -1,7 +1,7 @@
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class Test1Zadanie6 extends TestBase{
+public class Zadanie3 extends TestBase{
 
     @Test
     public void shouldLogin(){
