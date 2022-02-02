@@ -7,9 +7,6 @@ public class SimpleAlertPopUPTest extends TestBase{
     public void buttonPressed (){
         driver.get("https://seleniumui.moderntester.pl/alerts.php");
         driver.findElement(By.id("simple-alert")).click();
-        //String message = driver.findElement(By.ByLinkText("OK")).getText();
-        //Assert.assertEquals(message, "OK button pressed");
-
 
     }
 }
