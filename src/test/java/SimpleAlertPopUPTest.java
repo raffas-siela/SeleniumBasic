@@ -2,7 +2,9 @@
 Test steps:
 1. Click on 'Simple Alert' button
 2. Click 'OK' button on alert
-3. Check that "OK button pressed" text has been shown*/
+3. Check that "OK button pressed" text has been shown
+
+*/
 
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;

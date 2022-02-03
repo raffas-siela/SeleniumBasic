@@ -5,7 +5,9 @@
         3. Check that "You pressed OK!" has been shown
         4. Click again on 'Confirm Pop up' button
         5. Click 'Anuluj'/'Cancel' button on alert
-        6. Check that "You pressed Cancel!" text has been shown*/
+        6. Check that "You pressed Cancel!" text has been shown
+
+ */
 
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;

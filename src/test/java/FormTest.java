@@ -19,7 +19,8 @@
         'Policzcie' przy pomocy javy jaka jest ilość plików w tym folderze
         kliknijcie w formularzu przycisk 'Test File to Download'
         Sprawdźcie czy ilość plików w folderze jest taka jak wcześniej +1
-        Dla chętnych: możecie spróbować pobrać listę plików w danym folderze i sprawdzić czy zawiera ona ten plik test-file-to-download.xlsx*/
+        Dla chętnych: możecie spróbować pobrać listę plików w danym folderze i sprawdzić czy zawiera ona ten plik test-file-to-download.xlsx
+ */
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;

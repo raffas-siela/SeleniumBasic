@@ -3,7 +3,9 @@
         Dodać TestBase -> jak na prezentacji
         uzupełnić pom -> jak na prezentacji
         zrobić test który wchodzi na https://seleniumui.moderntester.pl/
-        a następna sprawdza asercją czy URL otwarty w przeglądarce jest równy "https://seleniumui.moderntester.pl/"*/
+        a następna sprawdza asercją czy URL otwarty w przeglądarce jest równy "https://seleniumui.moderntester.pl/"
+
+ */
 
 import org.testng.Assert;
 import org.testng.annotations.Test;
