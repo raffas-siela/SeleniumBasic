@@ -75,6 +75,7 @@ public class FormTest extends TestBase {
         driver.findElement(By.cssSelector(".btn-primary")).click();
         String message = driver.findElement(By.cssSelector("#validator-message")).getText();
         Assert.assertEquals(message, "Form send with success");
+        System.out.println(message);
     }
     //zwraca losowy element z listy
     private WebElement getRandomElementYear(List<WebElement> elements) {

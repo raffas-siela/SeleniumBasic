@@ -7,6 +7,7 @@ Test steps:
 
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import java.util.Iterator;
@@ -23,7 +24,9 @@ public class PromptAlertBoxTest extends TestBase{
         Alert promptAlert = driver.switchTo().alert();
         String alertText = promptAlert.getText();
         System.out.println("Alert text is " + alertText);
-        promptAlert.sendKeys("Lord Vader");
+        String name = "Lord Vader";
+        promptAlert.sendKeys(name);
         promptAlert.accept();
+        Assert.assertEquals("Hello " + name + "! How are you today?", "Hello Lord Vader! How are you today?");
     }
 }
