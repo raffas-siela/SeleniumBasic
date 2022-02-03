@@ -27,7 +27,7 @@ public class IframeTest extends TestBase{
     }
     @Test
     public void fillIframe2(){
-        //driver.get("https://seleniumui.moderntester.pl/iframes.php");
+        driver.get("https://seleniumui.moderntester.pl/iframes.php");
         driver.switchTo().frame("iframe2");
         driver.findElement(By.id("inputLogin")).sendKeys("tom");
         driver.findElement(By.id("inputPassword")).sendKeys("tom1234");
@@ -35,8 +35,9 @@ public class IframeTest extends TestBase{
         Select continents = new Select(driver.findElement(By.id("inlineFormCustomSelectPref")));
         continents.selectByVisibleText("Europe");
 
-        List<WebElement> professions = driver.findElements(By.xpath("//div[@class='col-sm-10']"));
+        List<WebElement> professions = driver.findElements(By.name("gridRadios"));
         getRandomElementYear(professions).click();
+        System.out.println(professions);
 
     }
     private WebElement getRandomElementYear(List<WebElement> elements) {
