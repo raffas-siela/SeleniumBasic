@@ -23,7 +23,6 @@ public class PromptAlertBoxTest extends TestBase{
         driver.findElement(By.id("prompt-alert")).click();
         Alert promptAlert = driver.switchTo().alert();
         String alertText = promptAlert.getText();
-        System.out.println("Alert text is " + alertText);
         String name = "Lord Vader";
         promptAlert.sendKeys(name);
         promptAlert.accept();
