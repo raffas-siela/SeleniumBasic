@@ -16,10 +16,6 @@ import java.util.List;
 import java.util.Random;
 
 public class IframeTest extends TestBase{
-    //@BeforeTest
-    //public void run(){
-        //driver.get("https://seleniumui.moderntester.pl/iframes.php");
-    //}
     @Test
     public void fillIframe1(){
         driver.get("https://seleniumui.moderntester.pl/iframes.php");
@@ -31,7 +27,7 @@ public class IframeTest extends TestBase{
     }
     @Test
     public void fillIframe2(){
-        driver.get("https://seleniumui.moderntester.pl/iframes.php");
+        //driver.get("https://seleniumui.moderntester.pl/iframes.php");
         driver.switchTo().frame("iframe2");
         driver.findElement(By.id("inputLogin")).sendKeys("tom");
         driver.findElement(By.id("inputPassword")).sendKeys("tom1234");
